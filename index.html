@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+
+<link rel="icon" href="https://1onjea25cyhx3uvxgs4vu325-wpengine.netdna-ssl.com/wp-content/themes/udacity_wp_1_8/images/udacity_mark.png">
+</head>
+<body>
+    <h1>Final project: Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker" style="color:#008080">
+     Grid height
+        <input type="number" id="height" name="height"min="1" max="1000" >
+        Grid Width:
+        <input type="number" id="width" name="width" min="1" max="1000">
+        <input type="submit" id="submit" style="background-color:#CD5C5C">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="color">
+
+    <h2>Design Canvas</h2>
+    <table class="grid"> 
+
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+</html>
